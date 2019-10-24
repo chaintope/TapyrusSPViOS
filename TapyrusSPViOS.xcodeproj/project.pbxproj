@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DBB9C49023614BD3004465F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C48F23614BD3004465F2 /* AppDelegate.swift */; };
+		DBB9C49223614BD3004465F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C49123614BD3004465F2 /* SceneDelegate.swift */; };
+		DBB9C49423614BD3004465F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C49323614BD3004465F2 /* ContentView.swift */; };
+		DBB9C49623614BD7004465F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB9C49523614BD7004465F2 /* Assets.xcassets */; };
+		DBB9C49923614BD7004465F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB9C49823614BD7004465F2 /* Preview Assets.xcassets */; };
+		DBB9C49C23614BD7004465F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBB9C49A23614BD7004465F2 /* LaunchScreen.storyboard */; };
+		DBB9C4A723614BD7004465F2 /* TapyrusSPViOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C4A623614BD7004465F2 /* TapyrusSPViOSTests.swift */; };
+		DBB9C4B223614BD7004465F2 /* TapyrusSPViOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C4B123614BD7004465F2 /* TapyrusSPViOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DBB9C4A323614BD7004465F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB9C48423614BD3004465F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB9C48B23614BD3004465F2;
+			remoteInfo = TapyrusSPViOS;
+		};
+		DBB9C4AE23614BD7004465F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DBB9C48423614BD3004465F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DBB9C48B23614BD3004465F2;
+			remoteInfo = TapyrusSPViOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DBB9C48C23614BD3004465F2 /* TapyrusSPViOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapyrusSPViOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB9C48F23614BD3004465F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBB9C49123614BD3004465F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DBB9C49323614BD3004465F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DBB9C49523614BD7004465F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DBB9C49823614BD7004465F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBB9C49B23614BD7004465F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DBB9C49D23614BD7004465F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB9C4A223614BD7004465F2 /* TapyrusSPViOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapyrusSPViOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB9C4A623614BD7004465F2 /* TapyrusSPViOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapyrusSPViOSTests.swift; sourceTree = "<group>"; };
+		DBB9C4A823614BD7004465F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBB9C4AD23614BD7004465F2 /* TapyrusSPViOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapyrusSPViOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB9C4B123614BD7004465F2 /* TapyrusSPViOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapyrusSPViOSUITests.swift; sourceTree = "<group>"; };
+		DBB9C4B323614BD7004465F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DBB9C48923614BD3004465F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9C49F23614BD7004465F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9C4AA23614BD7004465F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DBB9C48323614BD3004465F2 = {
+			isa = PBXGroup;
+			children = (
+				DBB9C48E23614BD3004465F2 /* TapyrusSPViOS */,
+				DBB9C4A523614BD7004465F2 /* TapyrusSPViOSTests */,
+				DBB9C4B023614BD7004465F2 /* TapyrusSPViOSUITests */,
+				DBB9C48D23614BD3004465F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DBB9C48D23614BD3004465F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9C48C23614BD3004465F2 /* TapyrusSPViOS.app */,
+				DBB9C4A223614BD7004465F2 /* TapyrusSPViOSTests.xctest */,
+				DBB9C4AD23614BD7004465F2 /* TapyrusSPViOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DBB9C48E23614BD3004465F2 /* TapyrusSPViOS */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9C48F23614BD3004465F2 /* AppDelegate.swift */,
+				DBB9C49123614BD3004465F2 /* SceneDelegate.swift */,
+				DBB9C49323614BD3004465F2 /* ContentView.swift */,
+				DBB9C49523614BD7004465F2 /* Assets.xcassets */,
+				DBB9C49A23614BD7004465F2 /* LaunchScreen.storyboard */,
+				DBB9C49D23614BD7004465F2 /* Info.plist */,
+				DBB9C49723614BD7004465F2 /* Preview Content */,
+			);
+			path = TapyrusSPViOS;
+			sourceTree = "<group>";
+		};
+		DBB9C49723614BD7004465F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9C49823614BD7004465F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DBB9C4A523614BD7004465F2 /* TapyrusSPViOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9C4A623614BD7004465F2 /* TapyrusSPViOSTests.swift */,
+				DBB9C4A823614BD7004465F2 /* Info.plist */,
+			);
+			path = TapyrusSPViOSTests;
+			sourceTree = "<group>";
+		};
+		DBB9C4B023614BD7004465F2 /* TapyrusSPViOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DBB9C4B123614BD7004465F2 /* TapyrusSPViOSUITests.swift */,
+				DBB9C4B323614BD7004465F2 /* Info.plist */,
+			);
+			path = TapyrusSPViOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DBB9C48B23614BD3004465F2 /* TapyrusSPViOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB9C4B623614BD7004465F2 /* Build configuration list for PBXNativeTarget "TapyrusSPViOS" */;
+			buildPhases = (
+				DBB9C48823614BD3004465F2 /* Sources */,
+				DBB9C48923614BD3004465F2 /* Frameworks */,
+				DBB9C48A23614BD3004465F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TapyrusSPViOS;
+			productName = TapyrusSPViOS;
+			productReference = DBB9C48C23614BD3004465F2 /* TapyrusSPViOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DBB9C4A123614BD7004465F2 /* TapyrusSPViOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB9C4B923614BD7004465F2 /* Build configuration list for PBXNativeTarget "TapyrusSPViOSTests" */;
+			buildPhases = (
+				DBB9C49E23614BD7004465F2 /* Sources */,
+				DBB9C49F23614BD7004465F2 /* Frameworks */,
+				DBB9C4A023614BD7004465F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB9C4A423614BD7004465F2 /* PBXTargetDependency */,
+			);
+			name = TapyrusSPViOSTests;
+			productName = TapyrusSPViOSTests;
+			productReference = DBB9C4A223614BD7004465F2 /* TapyrusSPViOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DBB9C4AC23614BD7004465F2 /* TapyrusSPViOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DBB9C4BC23614BD7004465F2 /* Build configuration list for PBXNativeTarget "TapyrusSPViOSUITests" */;
+			buildPhases = (
+				DBB9C4A923614BD7004465F2 /* Sources */,
+				DBB9C4AA23614BD7004465F2 /* Frameworks */,
+				DBB9C4AB23614BD7004465F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBB9C4AF23614BD7004465F2 /* PBXTargetDependency */,
+			);
+			name = TapyrusSPViOSUITests;
+			productName = TapyrusSPViOSUITests;
+			productReference = DBB9C4AD23614BD7004465F2 /* TapyrusSPViOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DBB9C48423614BD3004465F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = chaintope;
+				TargetAttributes = {
+					DBB9C48B23614BD3004465F2 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					DBB9C4A123614BD7004465F2 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = DBB9C48B23614BD3004465F2;
+					};
+					DBB9C4AC23614BD7004465F2 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = DBB9C48B23614BD3004465F2;
+					};
+				};
+			};
+			buildConfigurationList = DBB9C48723614BD3004465F2 /* Build configuration list for PBXProject "TapyrusSPViOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DBB9C48323614BD3004465F2;
+			productRefGroup = DBB9C48D23614BD3004465F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DBB9C48B23614BD3004465F2 /* TapyrusSPViOS */,
+				DBB9C4A123614BD7004465F2 /* TapyrusSPViOSTests */,
+				DBB9C4AC23614BD7004465F2 /* TapyrusSPViOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DBB9C48A23614BD3004465F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB9C49C23614BD7004465F2 /* LaunchScreen.storyboard in Resources */,
+				DBB9C49923614BD7004465F2 /* Preview Assets.xcassets in Resources */,
+				DBB9C49623614BD7004465F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9C4A023614BD7004465F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9C4AB23614BD7004465F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DBB9C48823614BD3004465F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB9C49023614BD3004465F2 /* AppDelegate.swift in Sources */,
+				DBB9C49223614BD3004465F2 /* SceneDelegate.swift in Sources */,
+				DBB9C49423614BD3004465F2 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9C49E23614BD7004465F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB9C4A723614BD7004465F2 /* TapyrusSPViOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBB9C4A923614BD7004465F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DBB9C4B223614BD7004465F2 /* TapyrusSPViOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DBB9C4A423614BD7004465F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB9C48B23614BD3004465F2 /* TapyrusSPViOS */;
+			targetProxy = DBB9C4A323614BD7004465F2 /* PBXContainerItemProxy */;
+		};
+		DBB9C4AF23614BD7004465F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DBB9C48B23614BD3004465F2 /* TapyrusSPViOS */;
+			targetProxy = DBB9C4AE23614BD7004465F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DBB9C49A23614BD7004465F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DBB9C49B23614BD7004465F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DBB9C4B423614BD7004465F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DBB9C4B523614BD7004465F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DBB9C4B723614BD7004465F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TapyrusSPViOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9Q7VXF7P9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TapyrusSPViOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DBB9C4B823614BD7004465F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TapyrusSPViOS/Preview Content\"";
+				DEVELOPMENT_TEAM = Y9Q7VXF7P9;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TapyrusSPViOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DBB9C4BA23614BD7004465F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9Q7VXF7P9;
+				INFOPLIST_FILE = TapyrusSPViOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapyrusSPViOS.app/TapyrusSPViOS";
+			};
+			name = Debug;
+		};
+		DBB9C4BB23614BD7004465F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9Q7VXF7P9;
+				INFOPLIST_FILE = TapyrusSPViOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TapyrusSPViOS.app/TapyrusSPViOS";
+			};
+			name = Release;
+		};
+		DBB9C4BD23614BD7004465F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9Q7VXF7P9;
+				INFOPLIST_FILE = TapyrusSPViOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapyrusSPViOS;
+			};
+			name = Debug;
+		};
+		DBB9C4BE23614BD7004465F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y9Q7VXF7P9;
+				INFOPLIST_FILE = TapyrusSPViOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TapyrusSPViOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DBB9C48723614BD3004465F2 /* Build configuration list for PBXProject "TapyrusSPViOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB9C4B423614BD7004465F2 /* Debug */,
+				DBB9C4B523614BD7004465F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB9C4B623614BD7004465F2 /* Build configuration list for PBXNativeTarget "TapyrusSPViOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB9C4B723614BD7004465F2 /* Debug */,
+				DBB9C4B823614BD7004465F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB9C4B923614BD7004465F2 /* Build configuration list for PBXNativeTarget "TapyrusSPViOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB9C4BA23614BD7004465F2 /* Debug */,
+				DBB9C4BB23614BD7004465F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DBB9C4BC23614BD7004465F2 /* Build configuration list for PBXNativeTarget "TapyrusSPViOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DBB9C4BD23614BD7004465F2 /* Debug */,
+				DBB9C4BE23614BD7004465F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DBB9C48423614BD3004465F2 /* Project object */;
+}
