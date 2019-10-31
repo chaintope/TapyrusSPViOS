@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB09523C236A85050052ACDA /* libtapyrus_spv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB09523B236A84E80052ACDA /* libtapyrus_spv.a */; };
+		DB09523F236A86410052ACDA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DB09523E236A86410052ACDA /* README.md */; };
 		DBB9C49023614BD3004465F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C48F23614BD3004465F2 /* AppDelegate.swift */; };
 		DBB9C49223614BD3004465F2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C49123614BD3004465F2 /* SceneDelegate.swift */; };
 		DBB9C49423614BD3004465F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C49323614BD3004465F2 /* ContentView.swift */; };
@@ -17,7 +19,6 @@
 		DBB9C4B223614BD7004465F2 /* TapyrusSPViOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C4B123614BD7004465F2 /* TapyrusSPViOSUITests.swift */; };
 		DBB9C4C623616189004465F2 /* TapyrusSPV.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB9C4C523616189004465F2 /* TapyrusSPV.swift */; };
 		DBB9C4C723616338004465F2 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB9C4C123615EBA004465F2 /* libresolv.tbd */; };
-		DBB9C4C82361634A004465F2 /* libtapyrus_spv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB9C4C023614F0D004465F2 /* libtapyrus_spv.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DB09523B236A84E80052ACDA /* libtapyrus_spv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtapyrus_spv.a; path = "tapyrus-spv/target/universal/release/libtapyrus_spv.a"; sourceTree = "<group>"; };
+		DB09523D236A858F0052ACDA /* tapyrus_spv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tapyrus_spv.h; path = "tapyrus-spv/src/ffi/tapyrus_spv.h"; sourceTree = "<group>"; };
+		DB09523E236A86410052ACDA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DBB9C48C23614BD3004465F2 /* TapyrusSPViOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapyrusSPViOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB9C48F23614BD3004465F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBB9C49123614BD3004465F2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -52,11 +56,8 @@
 		DBB9C4AD23614BD7004465F2 /* TapyrusSPViOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapyrusSPViOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBB9C4B123614BD7004465F2 /* TapyrusSPViOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapyrusSPViOSUITests.swift; sourceTree = "<group>"; };
 		DBB9C4B323614BD7004465F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBB9C4C023614F0D004465F2 /* libtapyrus_spv.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtapyrus_spv.a; path = "../tapyrus-spv/target/universal/release/libtapyrus_spv.a"; sourceTree = "<group>"; };
 		DBB9C4C123615EBA004465F2 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
-		DBB9C4C223615EF4004465F2 /* tapyrus_spv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tapyrus_spv.h; path = "../tapyrus-spv/src/ffi/tapyrus_spv.h"; sourceTree = "<group>"; };
 		DBB9C4C323615F29004465F2 /* Tapyrus_SPV-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tapyrus_SPV-Bridging-Header.h"; sourceTree = "<group>"; };
-		DBB9C4C4236160C0004465F2 /* tapyrus_spv.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tapyrus_spv.h; sourceTree = "<group>"; };
 		DBB9C4C523616189004465F2 /* TapyrusSPV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapyrusSPV.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DBB9C4C82361634A004465F2 /* libtapyrus_spv.a in Frameworks */,
+				DB09523C236A85050052ACDA /* libtapyrus_spv.a in Frameworks */,
 				DBB9C4C723616338004465F2 /* libresolv.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -90,11 +91,12 @@
 		DBB9C48323614BD3004465F2 = {
 			isa = PBXGroup;
 			children = (
+				DB09523E236A86410052ACDA /* README.md */,
+				DB09523D236A858F0052ACDA /* tapyrus_spv.h */,
 				DBB9C48E23614BD3004465F2 /* TapyrusSPViOS */,
 				DBB9C4A523614BD7004465F2 /* TapyrusSPViOSTests */,
 				DBB9C4B023614BD7004465F2 /* TapyrusSPViOSUITests */,
 				DBB9C48D23614BD3004465F2 /* Products */,
-				DBB9C4C223615EF4004465F2 /* tapyrus_spv.h */,
 				DBB9C4BF23614F0D004465F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -112,7 +114,6 @@
 		DBB9C48E23614BD3004465F2 /* TapyrusSPViOS */ = {
 			isa = PBXGroup;
 			children = (
-				DBB9C4C4236160C0004465F2 /* tapyrus_spv.h */,
 				DBB9C4C523616189004465F2 /* TapyrusSPV.swift */,
 				DBB9C4C323615F29004465F2 /* Tapyrus_SPV-Bridging-Header.h */,
 				DBB9C48F23614BD3004465F2 /* AppDelegate.swift */,
@@ -155,8 +156,8 @@
 		DBB9C4BF23614F0D004465F2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DB09523B236A84E80052ACDA /* libtapyrus_spv.a */,
 				DBB9C4C123615EBA004465F2 /* libresolv.tbd */,
-				DBB9C4C023614F0D004465F2 /* libtapyrus_spv.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,6 +268,7 @@
 			files = (
 				DBB9C49C23614BD7004465F2 /* LaunchScreen.storyboard in Resources */,
 				DBB9C49923614BD7004465F2 /* Preview Assets.xcassets in Resources */,
+				DB09523F236A86410052ACDA /* README.md in Resources */,
 				DBB9C49623614BD7004465F2 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,7 +471,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../tapyrus-spv/target/universal/release";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/tapyrus-spv/target/universal/release";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/TapyrusSPViOS/Tapyrus_SPV-Bridging-Header.h";
@@ -491,7 +493,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/../tapyrus-spv/target/universal/release";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/tapyrus-spv/target/universal/release";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chaintope.TapyrusSPViOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/TapyrusSPViOS/Tapyrus_SPV-Bridging-Header.h";
