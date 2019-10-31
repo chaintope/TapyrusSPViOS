@@ -8,17 +8,24 @@
 
 import Foundation
 
-class TapyrusSPV {
-    static func initialize() {
-        enable_log()
-    }
+enum Network: String {
+    case Bitcoin = "bitcoin"
+    case Testnet = "testnet"
+    case Regtest = "regtest"
 }
 
-class RustGreetings {
-    func sayHello(to: String) -> String {
-        let result = rust_greeting(to)
-        let swift_result = String(cString: result!)
-        rust_greeting_free(UnsafeMutablePointer(mutating: result))
-        return swift_result
+class TapyrusSPV {
+    var remote = ""
+    var network = Network.Bitcoin
+    
+    init(remote: String, network: Network) {
+        tapyrus_enable_log()
+        
+        self.remote = remote
+        self.network = network
+    }
+    
+    func run() {
+        tapyrus_spv_run(self.remote, self.network.rawValue);
     }
 }
